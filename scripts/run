@@ -1,0 +1,3 @@
+#!/bin/sh -e
+
+docker run --rm --user="$(id -u)" -v "$(pwd):/avro" avro-tools:latest "$@"

@@ -1,0 +1,3 @@
+#!/bin/sh -e
+
+docker push kpnnv/avro-tools --all-tags
