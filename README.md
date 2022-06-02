@@ -2,7 +2,9 @@
 
 ![Docker Image Version (latest by date)](https://img.shields.io/docker/v/kpnnv/avro-tools?label=latest%20version)
 
-Container image for [avro-tools](https://github.com/rkluszczynski/avro-tools)
+Container image for [avro-tools](https://dlcdn.apache.org/avro/avro-1.11.0/java/https://github.com/apache/avro)
+
+avro-tools is part of the [avro](https://dlcdn.apache.org/avro/avro-1.11.0/java/) library
 
 ## Prerequisities
 
