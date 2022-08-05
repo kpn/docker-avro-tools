@@ -62,4 +62,4 @@ docker run --rm kpnnv/avro-tools
 ## Acknowledgments
 
 * Docker image forked from [brandonstubbs/avro-tools](https://github.com/brandonstubbs/docker-avro-tools)
-we republish it for our convinience
+we republish it for our own convinience
