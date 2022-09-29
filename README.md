@@ -2,9 +2,9 @@
 
 ![Docker Image Version (latest by date)](https://img.shields.io/docker/v/kpnnv/avro-tools?label=latest%20version)
 
-Container image for [avro-tools](https://dlcdn.apache.org/avro/avro-1.11.0/java/https://github.com/apache/avro)
+Container image for [avro-tools](https://avro.apache.org/docs/1.11.1/getting-started-java/#serializing-and-deserializing-with-code-generation)
 
-avro-tools is part of the [avro](https://dlcdn.apache.org/avro/avro-1.11.0/java/) library
+avro-tools is part of [apache/avro/lang/java](https://github.com/apache/avro/tree/master/lang/java) library
 
 ## Prerequisities
 
@@ -31,7 +31,7 @@ To release a new version:
 
 Check for new versions:
 
-- [avro-tools releases](https://avro.apache.org/docs/current/gettingstartedjava.html)
+- [avro-tools releases](https://github.com/apache/avro/releases)
 
 ## Usage examples
 
