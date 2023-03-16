@@ -34,12 +34,12 @@ jobs:
           build-args: |
             AVRO_VERSION=${{ github.event.inputs.version }}
           tags: |
-            kpnnv/avro-tools:latest
-            kpnnv/avro-tools:${{ github.event.inputs.version }}
+            kpnnl/avro-tools:latest
+            kpnnl/avro-tools:${{ github.event.inputs.version }}
       - name: Docker Hub Description
         uses: peter-evans/dockerhub-description@v3
         with:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
           short-description: ${{ github.event.repository.description }}
-          repository: "kpnnv/avro-tools"
+          repository: "kpnnl/avro-tools"
