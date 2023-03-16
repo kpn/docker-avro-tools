@@ -1,6 +1,6 @@
 # Docker-avro-tools
 
-![Docker Image Version (latest by date)](https://img.shields.io/docker/v/kpnnv/avro-tools?label=latest%20version)
+![Docker Image Version (latest by date)](https://img.shields.io/docker/v/kpnnl/avro-tools?label=latest%20version)
 
 Container image for [avro-tools](https://avro.apache.org/docs/1.11.1/getting-started-java/#serializing-and-deserializing-with-code-generation)
 
@@ -38,7 +38,7 @@ Check for new versions:
 ### Pull image
 
 ```sh
-docker pull kpnnv/avro-tools:1.10.0
+docker pull kpnnl/avro-tools:1.10.0
 ```
 
 ### AVDL to AVSC conversion example
@@ -47,7 +47,7 @@ Use to validate avro json schemas:
 
 ```sh
 docker run --rm --user="$(id -u)" -v "$(pwd)":/avro \
-    kpnnv/avro-tools:1.10.0 \
+    kpnnl/avro-tools:1.10.0 \
     idl2schemata {file}.avdl {target-folder}
 ```
 
@@ -56,7 +56,7 @@ docker run --rm --user="$(id -u)" -v "$(pwd)":/avro \
 Use to validate avro json schemas:
 
 ```sh
-docker run --rm kpnnv/avro-tools
+docker run --rm kpnnl/avro-tools
 ```
 
 ## Acknowledgments
