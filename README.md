@@ -6,7 +6,7 @@ Container image for [avro-tools](https://avro.apache.org/docs/1.11.1/getting-sta
 
 avro-tools is part of [apache/avro/lang/java](https://github.com/apache/avro/tree/master/lang/java) library
 
-## Prerequisities
+## Prerequisites
 
 In order to run this container you'll need docker installed.
 
@@ -38,7 +38,7 @@ Check for new versions:
 ### Pull image
 
 ```sh
-docker pull kpnnl/avro-tools:1.10.0
+docker pull kpnnl/avro-tools:1.12.0
 ```
 
 ### AVDL to AVSC conversion example
@@ -47,7 +47,7 @@ Use to validate avro json schemas:
 
 ```sh
 docker run --rm --user="$(id -u)" -v "$(pwd)":/avro \
-    kpnnl/avro-tools:1.10.0 \
+    kpnnl/avro-tools:1.12.0 \
     idl2schemata {file}.avdl {target-folder}
 ```
 
@@ -62,4 +62,4 @@ docker run --rm kpnnl/avro-tools
 ## Acknowledgments
 
 * Docker image forked from [brandonstubbs/avro-tools](https://github.com/brandonstubbs/docker-avro-tools)
-we republish it for our own convinience
+we republish it for our own convenience
