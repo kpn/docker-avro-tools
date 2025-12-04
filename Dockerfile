@@ -1,7 +1,7 @@
-FROM openjdk:11-slim
+FROM openjdk:26-ea-slim
 
-ARG AVRO_VERSION=1.10.0
-ENV AVRO_TOOLS_JAR /avro-tools/avro-tools-${AVRO_VERSION}.jar
+ARG AVRO_VERSION=1.12.1
+ENV AVRO_TOOLS_JAR=/avro-tools/avro-tools-${AVRO_VERSION}.jar
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends wget \
